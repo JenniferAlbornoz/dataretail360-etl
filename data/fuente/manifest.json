@@ -1,6 +1,73 @@
 {
   "semilla": 360,
-  "generado": "2026-10-30T05:46:58",
+  "generado": "2026-10-30T19:45:19",
+  "parametros": {
+    "semilla": 360,
+    "escala": 2,
+    "periodo_ventas": "2025-01-01 a 2025-12-31 (+ histórico Chillán jun–dic 2018)",
+    "clientes": 2500,
+    "productos": 22,
+    "sucursales": 10,
+    "vigencia_maestros_v1": "2025-01-01",
+    "vigencia_maestros_v2": "2025-07-01"
+  },
+  "problemas_insertados": {
+    "CRM_v1": {
+      "cliente_duplicado_otro_formato_rut": 50,
+      "rut_sin_puntos_o_sin_guion": 1231
+    },
+    "CRM_v2": {
+      "cliente_duplicado_otro_formato_rut": 50,
+      "rut_sin_puntos_o_sin_guion": 1247
+    },
+    "POS": {
+      "fecha_DD/MM/AAAA": 22270,
+      "fecha_con_slash": 2206,
+      "sku_minusculas_espacios": 3682,
+      "canal_mal_escrito": 22179,
+      "precio_coma_decimal": 7418,
+      "rut_dv_invalido": 818,
+      "cantidad_cero": 140,
+      "cantidad_no_numerica": 67,
+      "sucursal_vacia": 582,
+      "monto_negativo": 288,
+      "monto_no_numerico": 67,
+      "sku_inexistente": 140,
+      "fecha_imposible": 134,
+      "fila_duplicada": 738,
+      "filas_exportadas": 74501
+    },
+    "ECOMMERCE": {
+      "codigo_producto_propio_WEB": 32854,
+      "sku_inexistente_WEB-9999": 47,
+      "fecha_hora_ISO_y_coma_decimal": 32901,
+      "descuento_en_porcentaje": 12730,
+      "plataforma_mal_escrita": 1306,
+      "filas_exportadas": 32901
+    },
+    "INVENTARIO": {
+      "stock_negativo": 36,
+      "filas_sin_registro_SUC-07_marzo": 308
+    },
+    "LEGADO": {
+      "codigo_producto_sin_guion": 3184,
+      "fecha_DD/MM/AAAA": 1003,
+      "fecha_con_slash": 95,
+      "sku_minusculas_espacios": 159,
+      "canal_mal_escrito": 953,
+      "precio_coma_decimal": 309,
+      "rut_dv_invalido": 28,
+      "cantidad_cero": 6,
+      "cantidad_no_numerica": 3,
+      "sucursal_vacia": 25,
+      "monto_negativo": 12,
+      "monto_no_numerico": 3,
+      "sku_inexistente": 6,
+      "fecha_imposible": 6,
+      "fila_duplicada": 32,
+      "filas_exportadas": 3216
+    }
+  },
   "archivos": [
     {
       "archivo": "inventario/stock_diario_2025_S1.csv",
