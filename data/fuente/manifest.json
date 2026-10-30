@@ -1,16 +1,16 @@
 {
   "semilla": 360,
-  "generado": "2026-10-29T22:08:37",
+  "generado": "2026-10-30T05:46:58",
   "archivos": [
     {
       "archivo": "inventario/stock_diario_2025_S1.csv",
       "filas": 39512,
-      "sha256": "e804b28542da78c742eb89f787f84602b22b37f8804d9ba01fd98bd9edb4fdbf"
+      "sha256": "c902f51f56457ee5fb22dbd91fcf02372801f243dd52583c0002b814099299a8"
     },
     {
       "archivo": "inventario/stock_diario_2025_S2.csv",
       "filas": 40480,
-      "sha256": "682f1228c074ed628e35e04acd02649e3a02af2a92805c298ad514a9afdfcfdb"
+      "sha256": "1e71fd055288566d9296c04ff5b01c0b3f4976256be0de2628553189a4b79115"
     },
     {
       "archivo": "maestros/campanas.csv",
@@ -59,38 +59,38 @@
     },
     {
       "archivo": "ventas/devoluciones_2025_S1.csv",
-      "filas": 1152,
-      "sha256": "6c206ee91f7e6c9ab92549b5c5c68230a6e5b879002e19f70df07aefccd3768c"
+      "filas": 1165,
+      "sha256": "a39d0daf619144a62fdac3af0fc5f655e3fd672d76790e8118f6cdc0b090c33c"
     },
     {
       "archivo": "ventas/devoluciones_2025_S2.csv",
-      "filas": 1448,
-      "sha256": "76814748edfcff986b8f17858ec7686b95ba9074688299cb740620a1c7e57a01"
+      "filas": 1431,
+      "sha256": "00c69ffcd9f0656c3add6c89802d7e81ad55c7839271cc3939b2b1f550c981da"
     },
     {
       "archivo": "ventas/legado_ventas_2018.csv",
-      "filas": 3244,
-      "sha256": "61855bee04e64b2baba2e8d2712b053dc423e60e19199048bfdcadf6f78a17df"
+      "filas": 3216,
+      "sha256": "f4c4da19052f963daf5798624c7547bee1c77157ee8e29ad7d5e59137040a944"
     },
     {
       "archivo": "ventas/pos_ventas_2025_S1.csv",
-      "filas": 33053,
-      "sha256": "e96e5c93eb9834b681412424eca11bbd0a9b23d105fce6198082aef308934cc5"
+      "filas": 33578,
+      "sha256": "44827016018ccc51c0468af5f0a3200964086f0f8d600686029f685a47dd0f6e"
     },
     {
       "archivo": "ventas/pos_ventas_2025_S2.csv",
-      "filas": 41567,
-      "sha256": "8942f7fc10d42b3466f08ec7def54c9dc288fb53cfbb72eccc851f92538604ed"
+      "filas": 40923,
+      "sha256": "b2fa232356162b4d64075498f43cf71ae87495309cc007df1b599001a9b02637"
     },
     {
       "archivo": "ventas/web_pedidos_2025_S1.csv",
-      "filas": 14553,
-      "sha256": "d41eddec519077341e35e22cc49c05b7807e02883a5932b31cf56eb90e182fdb"
+      "filas": 14602,
+      "sha256": "119809df570e57f3a8c162b68c3beae1a01a5211434164251f049284d4dfff9f"
     },
     {
       "archivo": "ventas/web_pedidos_2025_S2.csv",
-      "filas": 18257,
-      "sha256": "c6252066aad13968e626f8227290811174edd9d4c7b04c211a00c5be1af5055a"
+      "filas": 18299,
+      "sha256": "3dd0b49a0a3472bee31fc46114495e9c812558046334a0bc68153aa3070e3c4b"
     }
   ]
 }
