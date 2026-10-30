@@ -1,0 +1,11 @@
+codigo_sucursal,sucursal,tipo_sucursal,cod_comuna,zona_comercial
+SUC-01,Providencia,Mall,13123,Zona Centro
+SUC-02,Concepción,Mall,08101,Zona Sur
+SUC-03,Las Condes,Mall,13114,Zona Centro
+SUC-04,Chillán,Calle,16101,Zona Sur
+SUC-05,Maipú,Calle,13119,Zona Centro
+SUC-06,Ñuñoa,Calle,13120,Zona Centro
+SUC-07,Antofagasta,Mall,02101,Zona Norte
+SUC-08,Viña del Mar,Mall,05109,Zona Centro
+SUC-09,Temuco,Mall,09101,Zona Sur
+WEB,Tienda Online,Online,13101,Zona Digital

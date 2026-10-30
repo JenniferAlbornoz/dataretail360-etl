@@ -1,0 +1,19 @@
+codigo_comuna,codigo_cut_vigente,comuna,provincia,region,latitud,longitud,valido_desde,valido_hasta,pais
+13101,13101,Santiago,Santiago,Metropolitana,-33.4489,-70.6693,1900-01-01,,Chile
+13123,13123,Providencia,Santiago,Metropolitana,-33.4314,-70.6093,1900-01-01,,Chile
+13114,13114,Las Condes,Santiago,Metropolitana,-33.408,-70.567,1900-01-01,,Chile
+13119,13119,Maipú,Santiago,Metropolitana,-33.511,-70.758,1900-01-01,,Chile
+13120,13120,Ñuñoa,Santiago,Metropolitana,-33.4569,-70.5979,1900-01-01,,Chile
+13201,13201,Puente Alto,Cordillera,Metropolitana,-33.611,-70.575,1900-01-01,,Chile
+05101,05101,Valparaíso,Valparaíso,Valparaíso,-33.0472,-71.6127,1900-01-01,,Chile
+05109,05109,Viña del Mar,Valparaíso,Valparaíso,-33.0245,-71.5518,1900-01-01,,Chile
+04101,04101,La Serena,Elqui,Coquimbo,-29.9027,-71.2519,1900-01-01,,Chile
+02101,02101,Antofagasta,Antofagasta,Antofagasta,-23.6509,-70.3975,1900-01-01,,Chile
+08101,08101,Concepción,Concepción,Biobío,-36.827,-73.0503,1900-01-01,,Chile
+08110,08110,Talcahuano,Concepción,Biobío,-36.7249,-73.1168,1900-01-01,,Chile
+16101,08401,Chillán,Ñuble,Biobío,-36.6066,-72.1034,1900-01-01,2018-09-06,Chile
+16101,16101,Chillán,Diguillín,Ñuble,-36.6066,-72.1034,2018-09-06,,Chile
+16103,08406,Chillán Viejo,Ñuble,Biobío,-36.623,-72.132,1900-01-01,2018-09-06,Chile
+16103,16103,Chillán Viejo,Diguillín,Ñuble,-36.623,-72.132,2018-09-06,,Chile
+09101,09101,Temuco,Cautín,La Araucanía,-38.7359,-72.5904,1900-01-01,,Chile
+10101,10101,Puerto Montt,Llanquihue,Los Lagos,-41.4693,-72.9424,1900-01-01,,Chile

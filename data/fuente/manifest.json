@@ -1,0 +1,96 @@
+{
+  "semilla": 360,
+  "generado": "2026-10-29T22:08:37",
+  "archivos": [
+    {
+      "archivo": "inventario/stock_diario_2025_S1.csv",
+      "filas": 39512,
+      "sha256": "e804b28542da78c742eb89f787f84602b22b37f8804d9ba01fd98bd9edb4fdbf"
+    },
+    {
+      "archivo": "inventario/stock_diario_2025_S2.csv",
+      "filas": 40480,
+      "sha256": "682f1228c074ed628e35e04acd02649e3a02af2a92805c298ad514a9afdfcfdb"
+    },
+    {
+      "archivo": "maestros/campanas.csv",
+      "filas": 8,
+      "sha256": "173dfe6eba80f54848cc0c056d656d9deed5bd77d46ebe6f982bdf3c0842643b"
+    },
+    {
+      "archivo": "maestros/clientes_crm_v1.csv",
+      "filas": 2550,
+      "sha256": "40ddd2583d9fadd5907f2b82289d10b897bbe8ba5c472e1b36423d926ec3fa8a"
+    },
+    {
+      "archivo": "maestros/clientes_crm_v2.csv",
+      "filas": 2550,
+      "sha256": "aec984d9ac15f0a30bbfeebed534e0adff38e93406624548eb989332990ff3fa"
+    },
+    {
+      "archivo": "maestros/equivalencias_productos.csv",
+      "filas": 66,
+      "sha256": "652d61f3eced23c54e9a1d77f1156a1696317d1683bf113b4f2a8a61bfa3f728"
+    },
+    {
+      "archivo": "maestros/geografia_cut.csv",
+      "filas": 18,
+      "sha256": "a89d35d8a487c10c0b8767d9ecc599db739cc8d0ad3999b9de7a0fce258d0911"
+    },
+    {
+      "archivo": "maestros/productos_v1.csv",
+      "filas": 22,
+      "sha256": "cb5ddab5a9de699560b90de35b65ecf6a3b9e0ddeee958d4279fa0e8d34b6361"
+    },
+    {
+      "archivo": "maestros/productos_v2.csv",
+      "filas": 22,
+      "sha256": "c5338d1a6b55565da2a6674d734ff8b5836a607a2f91f1774008ed40140ef73c"
+    },
+    {
+      "archivo": "maestros/sucursales_v1.csv",
+      "filas": 10,
+      "sha256": "75a3601479f2a2196ee4ec3970ad94bf2e8a3d60b9b077e558b4fc86ef6ddc62"
+    },
+    {
+      "archivo": "maestros/sucursales_v2.csv",
+      "filas": 10,
+      "sha256": "7a22e17dd70bf2a60ecb3ac9aec1e570980ca20d9dea14e0202efdc768b3191e"
+    },
+    {
+      "archivo": "ventas/devoluciones_2025_S1.csv",
+      "filas": 1152,
+      "sha256": "6c206ee91f7e6c9ab92549b5c5c68230a6e5b879002e19f70df07aefccd3768c"
+    },
+    {
+      "archivo": "ventas/devoluciones_2025_S2.csv",
+      "filas": 1448,
+      "sha256": "76814748edfcff986b8f17858ec7686b95ba9074688299cb740620a1c7e57a01"
+    },
+    {
+      "archivo": "ventas/legado_ventas_2018.csv",
+      "filas": 3244,
+      "sha256": "61855bee04e64b2baba2e8d2712b053dc423e60e19199048bfdcadf6f78a17df"
+    },
+    {
+      "archivo": "ventas/pos_ventas_2025_S1.csv",
+      "filas": 33053,
+      "sha256": "e96e5c93eb9834b681412424eca11bbd0a9b23d105fce6198082aef308934cc5"
+    },
+    {
+      "archivo": "ventas/pos_ventas_2025_S2.csv",
+      "filas": 41567,
+      "sha256": "8942f7fc10d42b3466f08ec7def54c9dc288fb53cfbb72eccc851f92538604ed"
+    },
+    {
+      "archivo": "ventas/web_pedidos_2025_S1.csv",
+      "filas": 14553,
+      "sha256": "d41eddec519077341e35e22cc49c05b7807e02883a5932b31cf56eb90e182fdb"
+    },
+    {
+      "archivo": "ventas/web_pedidos_2025_S2.csv",
+      "filas": 18257,
+      "sha256": "c6252066aad13968e626f8227290811174edd9d4c7b04c211a00c5be1af5055a"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+sku,producto,subcategoria,categoria,marca,precio_lista,costo_unitario
+NB-001,Notebook 14,Computación,Tecnología,Lenovo,799000,565200.0
+AU-002,Audífonos,Audio,Tecnología,Sony,30000,21010.0
+TV-003,Smart TV 55,Televisores,Tecnología,Samsung,459000,348150.0
+CE-004,Celular,Telefonía,Tecnología,Samsung,349000,247760.0
+TB-005,Tablet 10,Computación,Tecnología,Lenovo,229000,143650.0
+MO-006,Monitor 27,Computación,Tecnología,LG,189000,112250.0
+TE-007,Teclado,Periféricos,Accesorios,Logitech,25000,15400.0
+MS-008,Mouse,Periféricos,Accesorios,Logitech,15000,9250.0
+IM-009,Impresora,Computación,Tecnología,HP,129000,84880.0
+PA-010,Parlante,Audio,Tecnología,JBL,59000,41300.0
+SW-011,Smartwatch,Wearables,Tecnología,Xiaomi,149000,84180.0
+CA-012,Cámara,Fotografía,Tecnología,Canon,399000,242620.0
+RO-013,Router WiFi,Redes,Accesorios,TP-Link,45000,25790.0
+DI-014,Disco SSD 1TB,Almacenamiento,Accesorios,Kingston,69000,46700.0
+CO-015,Consola,Consolas,Gaming,Sony,499000,288910.0
+MI-016,Microondas,Cocina,Hogar,LG,89000,49990.0
+HG-017,Freidora de aire 5L,Cocina,Hogar,Oster,79990,50240.0
+HG-018,Aspiradora robot,Limpieza,Hogar,Xiaomi,189990,113680.0
+HG-019,Cafetera espresso,Cocina,Hogar,Oster,129990,84280.0
+HG-020,Hervidor eléctrico,Cocina,Hogar,Philips,29990,19570.0
+HG-021,Lámpara LED inteligente,Decoración,Hogar,Philips,24990,17970.0
+HG-022,Purificador de aire,Climatización,Hogar,Philips,149990,107390.0

@@ -1,0 +1,9 @@
+codigo_campana,campana,tipo_campana,fecha_inicio,fecha_fin,canal_objetivo
+CMP-2501,Vuelta a clases,Estacional,2025-02-20,2025-03-15,Todos
+CMP-2502,Día de la Madre,Estacional,2025-05-01,2025-05-11,Todos
+CMP-2503,CyberDay,Evento online,2025-06-02,2025-06-04,E-commerce
+CMP-2504,Liquidación de invierno,Liquidación,2025-07-07,2025-07-27,Todos
+CMP-2505,Lanzamiento app,Fidelización,2025-08-04,2025-08-31,E-commerce
+CMP-2506,Fiestas Patrias,Estacional,2025-09-08,2025-09-19,Todos
+CMP-2507,Black Friday,Evento online,2025-11-27,2025-11-30,Todos
+CMP-2508,Navidad,Estacional,2025-12-01,2025-12-24,Todos
