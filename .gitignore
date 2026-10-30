@@ -1,0 +1,16 @@
+# Entorno virtual (nunca se versiona: se recrea con requirements.txt)
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Credenciales y configuración local
+.env
+
+# Salidas que se regeneran en cada ejecución
+data/gold/
+data/*.db
+logs/
+
+# El dataset de origen (data/fuente) y la referencia de control (data/control) SÍ se versionan:
+# son el respaldo de la data procesada y su integridad se verifica con data/fuente/manifest.json
