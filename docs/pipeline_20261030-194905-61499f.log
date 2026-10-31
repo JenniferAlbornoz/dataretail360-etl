@@ -1,0 +1,192 @@
+2026-10-30 19:49:05,418 | INFO    | Inicio de ejecución 20261030-194905-61499f · motor=mssql
+2026-10-30 19:49:05,874 | INFO    | Conectado: Microsoft SQL Server 2022 (RTM) - 16.0.1000.6 (X64) 
+2026-10-30 19:49:06,126 | INFO    | Se usan las fuentes ya guardadas en c:\Users\Jennifer\Documents\ESTRUCTURAS Y VISUALIZACION DE DATOS\Prueba 3 ESTRUCTURA Y VISUALIZACION ALBORNOZ BLANCHARD\dataretail360-etl\dataretail360-etl\data\fuente (no se regeneran)
+2026-10-30 19:49:06,327 | INFO    | Integridad de las fuentes: 18 de 18 archivos coinciden con el manifiesto (SHA-256)
+2026-10-30 19:49:06,589 | INFO    | Estructuras creadas: 30 tablas en bronze, silver, gold, audit, sem
+2026-10-30 19:49:06,800 | INFO    | ══════════════════════════════════════════════════════════════════════
+2026-10-30 19:49:06,801 | INFO    | LOTE L1-2025H1 · vigencia de maestros 2025-01-01
+2026-10-30 19:49:06,812 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.pos_ventas
+2026-10-30 19:49:08,443 | INFO    |   ✔ entrada=36794 salida=36794 rechazadas=None (1.6 s)
+2026-10-30 19:49:08,444 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.web_pedidos
+2026-10-30 19:49:08,990 | INFO    |   ✔ entrada=14602 salida=14602 rechazadas=None (0.5 s)
+2026-10-30 19:49:08,991 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.devoluciones
+2026-10-30 19:49:09,042 | INFO    |   ✔ entrada=1165 salida=1165 rechazadas=None (0.1 s)
+2026-10-30 19:49:09,044 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.stock_diario
+2026-10-30 19:49:10,070 | INFO    |   ✔ entrada=39512 salida=39512 rechazadas=None (1.0 s)
+2026-10-30 19:49:10,071 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.clientes_crm
+2026-10-30 19:49:10,157 | INFO    |   ✔ entrada=2550 salida=2550 rechazadas=None (0.1 s)
+2026-10-30 19:49:10,158 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.productos
+2026-10-30 19:49:10,181 | INFO    |   ✔ entrada=22 salida=22 rechazadas=None (0.0 s)
+2026-10-30 19:49:10,182 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.sucursales
+2026-10-30 19:49:10,203 | INFO    |   ✔ entrada=10 salida=10 rechazadas=None (0.0 s)
+2026-10-30 19:49:10,204 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.campanas
+2026-10-30 19:49:10,227 | INFO    |   ✔ entrada=8 salida=8 rechazadas=None (0.0 s)
+2026-10-30 19:49:10,227 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.geografia_cut
+2026-10-30 19:49:10,249 | INFO    |   ✔ entrada=18 salida=18 rechazadas=None (0.0 s)
+2026-10-30 19:49:10,250 | INFO    | ▶ [L1-2025H1] Bronze · ingesta bronze.equivalencias_productos
+2026-10-30 19:49:10,274 | INFO    |   ✔ entrada=66 salida=66 rechazadas=None (0.0 s)
+2026-10-30 19:49:10,290 | INFO    | ▶ [L1-2025H1] Silver · ventas silver.ventas
+2026-10-30 19:49:12,892 | INFO    |   ✔ entrada=51396 salida=50594 rechazadas=802 (2.6 s)
+2026-10-30 19:49:12,895 | INFO    | ▶ [L1-2025H1] Silver · inventario silver.inventario
+2026-10-30 19:49:13,948 | INFO    |   ✔ entrada=39512 salida=39494 rechazadas=18 (1.1 s)
+2026-10-30 19:49:13,950 | INFO    | ▶ [L1-2025H1] Silver · clientes silver.clientes
+2026-10-30 19:49:14,054 | INFO    |   ✔ entrada=2550 salida=2500 rechazadas=50 (0.1 s)
+2026-10-30 19:49:14,062 | INFO    | ▶ [L1-2025H1] Gold · SCD 2 (carga histórica) gold.dim_geografia
+2026-10-30 19:49:14,094 | INFO    |   ✔ entrada=18 salida=18 rechazadas=None (0.0 s)
+2026-10-30 19:49:14,103 | INFO    | ▶ [L1-2025H1] Gold · SCD 0 gold.dim_fecha
+2026-10-30 19:49:14,156 | INFO    |   ✔ entrada=395 salida=395 rechazadas=None (0.1 s)
+2026-10-30 19:49:14,158 | INFO    | ▶ [L1-2025H1] Gold · SCD 1 gold.dim_canal
+2026-10-30 19:49:14,188 | INFO    |   ✔ entrada=3 salida=3 rechazadas=None (0.0 s)
+2026-10-30 19:49:14,193 | INFO    | ▶ [L1-2025H1] Gold · SCD 1 gold.dim_campana
+2026-10-30 19:49:14,213 | INFO    |   ✔ entrada=8 salida=8 rechazadas=None (0.0 s)
+2026-10-30 19:49:14,226 | INFO    | ▶ [L1-2025H1] Gold · SCD 1 gold.dim_sucursal
+2026-10-30 19:49:14,249 | INFO    |   ✔ entrada=10 salida=10 rechazadas=None (0.0 s)
+2026-10-30 19:49:14,251 | INFO    | ▶ [L1-2025H1] Gold · SCD 3 gold.dim_sucursal (zona comercial)
+2026-10-30 19:49:14,269 | INFO    |   ✔ entrada=10 salida=10 rechazadas=None (0.0 s)
+2026-10-30 19:49:14,270 | INFO    | ▶ [L1-2025H1] Gold · SCD 2 gold.dim_producto
+2026-10-30 19:49:14,311 | INFO    |     nuevos=22 · nuevas versiones=0 · sin cambios=0
+2026-10-30 19:49:14,312 | INFO    |   ✔ entrada=22 salida=22 rechazadas=None (0.0 s)
+2026-10-30 19:49:14,323 | INFO    | ▶ [L1-2025H1] Gold · SCD 2 gold.dim_cliente
+2026-10-30 19:49:14,430 | INFO    |     nuevos=2500 · nuevas versiones=0 · sin cambios=0
+2026-10-30 19:49:14,430 | INFO    |   ✔ entrada=2500 salida=2500 rechazadas=None (0.1 s)
+2026-10-30 19:49:14,431 | INFO    | ▶ [L1-2025H1] Gold · hechos gold.fact_ventas
+2026-10-30 19:49:17,360 | INFO    |   ✔ entrada=50594 salida=50594 rechazadas=None (2.9 s)
+2026-10-30 19:49:17,363 | INFO    | ▶ [L1-2025H1] Gold · hechos gold.fact_inventario
+2026-10-30 19:49:19,043 | INFO    |   ✔ entrada=39494 salida=39494 rechazadas=None (1.7 s)
+2026-10-30 19:49:19,111 | INFO    | LOTE L1-2025H1 completado en 12.3 s
+2026-10-30 19:49:19,145 | INFO    | ══════════════════════════════════════════════════════════════════════
+2026-10-30 19:49:19,146 | INFO    | LOTE L2-2025H2 · vigencia de maestros 2025-07-01
+2026-10-30 19:49:19,160 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.pos_ventas
+2026-10-30 19:49:20,608 | INFO    |   ✔ entrada=40923 salida=40923 rechazadas=None (1.4 s)
+2026-10-30 19:49:20,609 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.web_pedidos
+2026-10-30 19:49:21,199 | INFO    |   ✔ entrada=18299 salida=18299 rechazadas=None (0.6 s)
+2026-10-30 19:49:21,200 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.devoluciones
+2026-10-30 19:49:21,253 | INFO    |   ✔ entrada=1431 salida=1431 rechazadas=None (0.1 s)
+2026-10-30 19:49:21,254 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.stock_diario
+2026-10-30 19:49:22,194 | INFO    |   ✔ entrada=40480 salida=40480 rechazadas=None (0.9 s)
+2026-10-30 19:49:22,194 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.clientes_crm
+2026-10-30 19:49:22,287 | INFO    |   ✔ entrada=2550 salida=2550 rechazadas=None (0.1 s)
+2026-10-30 19:49:22,288 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.productos
+2026-10-30 19:49:22,301 | INFO    |   ✔ entrada=22 salida=22 rechazadas=None (0.0 s)
+2026-10-30 19:49:22,302 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.sucursales
+2026-10-30 19:49:22,314 | INFO    |   ✔ entrada=10 salida=10 rechazadas=None (0.0 s)
+2026-10-30 19:49:22,315 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.campanas
+2026-10-30 19:49:22,334 | INFO    |   ✔ entrada=8 salida=8 rechazadas=None (0.0 s)
+2026-10-30 19:49:22,335 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.geografia_cut
+2026-10-30 19:49:22,349 | INFO    |   ✔ entrada=18 salida=18 rechazadas=None (0.0 s)
+2026-10-30 19:49:22,350 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.equivalencias_productos
+2026-10-30 19:49:22,367 | INFO    |   ✔ entrada=66 salida=66 rechazadas=None (0.0 s)
+2026-10-30 19:49:22,372 | INFO    | ▶ [L2-2025H2] Silver · ventas silver.ventas
+2026-10-30 19:49:25,067 | INFO    |   ✔ entrada=59222 salida=58338 rechazadas=884 (2.7 s)
+2026-10-30 19:49:25,070 | INFO    | ▶ [L2-2025H2] Silver · inventario silver.inventario
+2026-10-30 19:49:26,201 | INFO    |   ✔ entrada=40480 salida=40462 rechazadas=18 (1.1 s)
+2026-10-30 19:49:26,203 | INFO    | ▶ [L2-2025H2] Silver · clientes silver.clientes
+2026-10-30 19:49:26,321 | INFO    |   ✔ entrada=2550 salida=2500 rechazadas=50 (0.1 s)
+2026-10-30 19:49:26,329 | INFO    | ▶ [L2-2025H2] Gold · SCD 2 (carga histórica) gold.dim_geografia
+2026-10-30 19:49:26,332 | INFO    |   ✔ entrada=0 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:49:26,339 | INFO    | ▶ [L2-2025H2] Gold · SCD 0 gold.dim_fecha
+2026-10-30 19:49:26,360 | INFO    |   ✔ entrada=184 salida=184 rechazadas=None (0.0 s)
+2026-10-30 19:49:26,362 | INFO    | ▶ [L2-2025H2] Gold · SCD 1 gold.dim_canal
+2026-10-30 19:49:26,372 | INFO    |   ✔ entrada=3 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:49:26,375 | INFO    | ▶ [L2-2025H2] Gold · SCD 1 gold.dim_campana
+2026-10-30 19:49:26,384 | INFO    |   ✔ entrada=8 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:49:26,391 | INFO    | ▶ [L2-2025H2] Gold · SCD 1 gold.dim_sucursal
+2026-10-30 19:49:26,405 | INFO    |     SCD1 codigo_sucursal=SUC-05: {'sucursal': ('Maipu', 'Maipú')}
+2026-10-30 19:49:26,407 | INFO    |   ✔ entrada=10 salida=1 rechazadas=None (0.0 s)
+2026-10-30 19:49:26,407 | INFO    | ▶ [L2-2025H2] Gold · SCD 3 gold.dim_sucursal (zona comercial)
+2026-10-30 19:49:26,417 | INFO    |     SCD3 SUC-02: Zona Centro-Sur → Zona Sur
+2026-10-30 19:49:26,418 | INFO    |     SCD3 SUC-04: Zona Centro-Sur → Zona Sur
+2026-10-30 19:49:26,419 | INFO    |   ✔ entrada=10 salida=2 rechazadas=None (0.0 s)
+2026-10-30 19:49:26,419 | INFO    | ▶ [L2-2025H2] Gold · SCD 2 gold.dim_producto
+2026-10-30 19:49:26,461 | INFO    |     nuevos=0 · nuevas versiones=5 · sin cambios=17
+2026-10-30 19:49:26,462 | INFO    |   ✔ entrada=22 salida=5 rechazadas=None (0.0 s)
+2026-10-30 19:49:26,469 | INFO    | ▶ [L2-2025H2] Gold · SCD 2 gold.dim_cliente
+2026-10-30 19:49:26,557 | INFO    |     nuevos=0 · nuevas versiones=219 · sin cambios=2281
+2026-10-30 19:49:26,558 | INFO    |   ✔ entrada=2500 salida=219 rechazadas=None (0.1 s)
+2026-10-30 19:49:26,558 | INFO    | ▶ [L2-2025H2] Gold · hechos gold.fact_ventas
+2026-10-30 19:49:29,941 | INFO    |   ✔ entrada=58338 salida=58338 rechazadas=None (3.4 s)
+2026-10-30 19:49:29,943 | INFO    | ▶ [L2-2025H2] Gold · hechos gold.fact_inventario
+2026-10-30 19:49:31,904 | INFO    |   ✔ entrada=40462 salida=40462 rechazadas=None (2.0 s)
+2026-10-30 19:49:31,965 | INFO    | LOTE L2-2025H2 completado en 12.8 s
+2026-10-30 19:49:32,325 | INFO    | ▶ [GOLD] Gold · agregado gold.agg_ventas_mes_producto_sucursal
+2026-10-30 19:49:33,250 | INFO    |   ✔ entrada=None salida=3036 rechazadas=None (0.9 s)
+2026-10-30 19:49:33,251 | INFO    | ▶ [GOLD] Gold · agregado gold.agg_inventario_mes_producto_sucursal
+2026-10-30 19:49:33,743 | INFO    |   ✔ entrada=None salida=2640 rechazadas=None (0.5 s)
+2026-10-30 19:49:33,744 | INFO    | ▶ [GOLD] Gold · data mart gold.dm_comercial_ventas
+2026-10-30 19:49:56,900 | INFO    |   ✔ entrada=None salida=1382 rechazadas=None (23.2 s)
+2026-10-30 19:49:56,901 | INFO    | ▶ [GOLD] Gold · data mart gold.dm_marketing_campanas
+2026-10-30 19:56:09,526 | INFO    |   ✔ entrada=None salida=4584 rechazadas=None (372.6 s)
+2026-10-30 19:56:09,527 | INFO    | ▶ [GOLD] Gold · data mart gold.dm_finanzas_margen
+2026-10-30 19:56:09,786 | INFO    |   ✔ entrada=None salida=639 rechazadas=None (0.3 s)
+2026-10-30 19:56:09,786 | INFO    | ▶ [GOLD] Gold · data mart gold.dm_operaciones_inventario
+2026-10-30 19:56:09,898 | INFO    |   ✔ entrada=None salida=2640 rechazadas=None (0.1 s)
+2026-10-30 19:56:12,770 | INFO    | ══════════════════════════════════════════════════════════════════════
+2026-10-30 19:56:12,771 | INFO    | LOTE L2-2025H2 · vigencia de maestros 2025-07-01
+2026-10-30 19:56:12,777 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.pos_ventas
+2026-10-30 19:56:13,956 | INFO    |   ✔ entrada=40923 salida=40923 rechazadas=None (1.2 s)
+2026-10-30 19:56:13,957 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.web_pedidos
+2026-10-30 19:56:14,507 | INFO    |   ✔ entrada=18299 salida=18299 rechazadas=None (0.5 s)
+2026-10-30 19:56:14,508 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.devoluciones
+2026-10-30 19:56:14,552 | INFO    |   ✔ entrada=1431 salida=1431 rechazadas=None (0.0 s)
+2026-10-30 19:56:14,552 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.stock_diario
+2026-10-30 19:56:15,481 | INFO    |   ✔ entrada=40480 salida=40480 rechazadas=None (0.9 s)
+2026-10-30 19:56:15,482 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.clientes_crm
+2026-10-30 19:56:15,565 | INFO    |   ✔ entrada=2550 salida=2550 rechazadas=None (0.1 s)
+2026-10-30 19:56:15,565 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.productos
+2026-10-30 19:56:15,578 | INFO    |   ✔ entrada=22 salida=22 rechazadas=None (0.0 s)
+2026-10-30 19:56:15,579 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.sucursales
+2026-10-30 19:56:15,594 | INFO    |   ✔ entrada=10 salida=10 rechazadas=None (0.0 s)
+2026-10-30 19:56:15,594 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.campanas
+2026-10-30 19:56:15,607 | INFO    |   ✔ entrada=8 salida=8 rechazadas=None (0.0 s)
+2026-10-30 19:56:15,608 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.geografia_cut
+2026-10-30 19:56:15,620 | INFO    |   ✔ entrada=18 salida=18 rechazadas=None (0.0 s)
+2026-10-30 19:56:15,621 | INFO    | ▶ [L2-2025H2] Bronze · ingesta bronze.equivalencias_productos
+2026-10-30 19:56:15,632 | INFO    |   ✔ entrada=66 salida=66 rechazadas=None (0.0 s)
+2026-10-30 19:56:15,635 | INFO    | ▶ [L2-2025H2] Silver · ventas silver.ventas
+2026-10-30 19:56:18,160 | INFO    |   ✔ entrada=59222 salida=58338 rechazadas=884 (2.5 s)
+2026-10-30 19:56:18,164 | INFO    | ▶ [L2-2025H2] Silver · inventario silver.inventario
+2026-10-30 19:56:19,185 | INFO    |   ✔ entrada=40480 salida=40462 rechazadas=18 (1.0 s)
+2026-10-30 19:56:19,187 | INFO    | ▶ [L2-2025H2] Silver · clientes silver.clientes
+2026-10-30 19:56:19,301 | INFO    |   ✔ entrada=2550 salida=2500 rechazadas=50 (0.1 s)
+2026-10-30 19:56:19,304 | INFO    | ▶ [L2-2025H2] Gold · SCD 2 (carga histórica) gold.dim_geografia
+2026-10-30 19:56:19,306 | INFO    |   ✔ entrada=0 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:56:19,312 | INFO    | ▶ [L2-2025H2] Gold · SCD 0 gold.dim_fecha
+2026-10-30 19:56:19,326 | INFO    |   ✔ entrada=184 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:56:19,328 | INFO    | ▶ [L2-2025H2] Gold · SCD 1 gold.dim_canal
+2026-10-30 19:56:19,335 | INFO    |   ✔ entrada=3 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:56:19,337 | INFO    | ▶ [L2-2025H2] Gold · SCD 1 gold.dim_campana
+2026-10-30 19:56:19,344 | INFO    |   ✔ entrada=8 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:56:19,349 | INFO    | ▶ [L2-2025H2] Gold · SCD 1 gold.dim_sucursal
+2026-10-30 19:56:19,356 | INFO    |   ✔ entrada=10 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:56:19,357 | INFO    | ▶ [L2-2025H2] Gold · SCD 3 gold.dim_sucursal (zona comercial)
+2026-10-30 19:56:19,362 | INFO    |   ✔ entrada=10 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:56:19,363 | INFO    | ▶ [L2-2025H2] Gold · SCD 2 gold.dim_producto
+2026-10-30 19:56:19,371 | INFO    |     nuevos=0 · nuevas versiones=0 · sin cambios=22
+2026-10-30 19:56:19,372 | INFO    |   ✔ entrada=22 salida=0 rechazadas=None (0.0 s)
+2026-10-30 19:56:19,377 | INFO    | ▶ [L2-2025H2] Gold · SCD 2 gold.dim_cliente
+2026-10-30 19:56:19,435 | INFO    |     nuevos=0 · nuevas versiones=0 · sin cambios=2500
+2026-10-30 19:56:19,436 | INFO    |   ✔ entrada=2500 salida=0 rechazadas=None (0.1 s)
+2026-10-30 19:56:19,437 | INFO    | ▶ [L2-2025H2] Gold · hechos gold.fact_ventas
+2026-10-30 19:56:22,310 | INFO    |   ✔ entrada=58338 salida=58338 rechazadas=None (2.9 s)
+2026-10-30 19:56:22,313 | INFO    | ▶ [L2-2025H2] Gold · hechos gold.fact_inventario
+2026-10-30 19:56:23,605 | INFO    |   ✔ entrada=40462 salida=40462 rechazadas=None (1.3 s)
+2026-10-30 19:56:23,611 | INFO    | LOTE L2-2025H2 completado en 10.8 s
+2026-10-30 19:56:23,624 | INFO    | ▶ [GOLD] Gold · agregado gold.agg_ventas_mes_producto_sucursal
+2026-10-30 19:56:24,350 | INFO    |   ✔ entrada=None salida=3036 rechazadas=None (0.7 s)
+2026-10-30 19:56:24,351 | INFO    | ▶ [GOLD] Gold · agregado gold.agg_inventario_mes_producto_sucursal
+2026-10-30 19:56:24,715 | INFO    |   ✔ entrada=None salida=2640 rechazadas=None (0.4 s)
+2026-10-30 19:56:24,715 | INFO    | ▶ [GOLD] Gold · data mart gold.dm_comercial_ventas
+2026-10-30 19:56:25,913 | INFO    |   ✔ entrada=None salida=1382 rechazadas=None (1.2 s)
+2026-10-30 19:56:25,914 | INFO    | ▶ [GOLD] Gold · data mart gold.dm_marketing_campanas
+2026-10-30 19:56:29,188 | INFO    |   ✔ entrada=None salida=4584 rechazadas=None (3.3 s)
+2026-10-30 19:56:29,189 | INFO    | ▶ [GOLD] Gold · data mart gold.dm_finanzas_margen
+2026-10-30 19:56:29,522 | INFO    |   ✔ entrada=None salida=639 rechazadas=None (0.3 s)
+2026-10-30 19:56:29,522 | INFO    | ▶ [GOLD] Gold · data mart gold.dm_operaciones_inventario
+2026-10-30 19:56:29,646 | INFO    |   ✔ entrada=None salida=2640 rechazadas=None (0.1 s)
+2026-10-30 19:56:29,805 | INFO    | ══════════════════════════════════════════════════════════════════════
+2026-10-30 19:56:29,805 | INFO    | LOTE L3-PRUEBA-ERROR · vigencia de maestros 2026-01-01
+2026-10-30 19:56:29,812 | INFO    | ▶ [L3-PRUEBA-ERROR] Bronze · ingesta bronze.pos_ventas
+2026-10-30 19:56:29,827 | ERROR   | ✖ [L3-PRUEBA-ERROR] Bronze · ingesta falló: ValueError: Estructura inválida en pos_ventas: faltan columnas ['precio_unitario']
+2026-10-30 19:56:29,828 | ERROR   | LOTE L3-PRUEBA-ERROR revertido completo (rollback). Revise audit.etl_log.
+2026-10-30 19:56:37,256 | INFO    | Huella del resultado 5c997dad0db7b4f2
+2026-10-30 19:56:37,256 | INFO    | Fin de la ejecución 20261030-194905-61499f. Log en c:\Users\Jennifer\Documents\ESTRUCTURAS Y VISUALIZACION DE DATOS\Prueba 3 ESTRUCTURA Y VISUALIZACION ALBORNOZ BLANCHARD\dataretail360-etl\dataretail360-etl\logs\pipeline_20261030-194905-61499f.log
