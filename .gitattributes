@@ -1,0 +1,3 @@
+# Los datos de origen se guardan byte a byte: Git no convierte los saltos de linea
+# (si los convierte, el SHA-256 deja de coincidir con data/fuente/manifest.json)
+data/** -text
